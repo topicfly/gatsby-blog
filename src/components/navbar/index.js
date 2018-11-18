@@ -1,20 +1,23 @@
 // @flow
 import React from 'react'
 import logo from './logo.svg'
+import { Link } from 'gatsby'
 
 export default () => (
 	<div className="bg-grey-dark">
-		<nav className="container flex items-center content-between mx-auto px-12">
+		<nav className="container w-full lg:w-3/5 flex items-center content-between mx-auto px-12">
 			<div className="w-1/2">
-				<img className="h-12 w-12" src={logo} />
+				<Link to="/">
+					<img className="h-12 w-12" src={logo} />
+				</Link>
 			</div>
 			<div className="w-1/2 flex justify-end">
-				<a
+				<Link
 					className="inline-block mr-3 capitalize text-bold text-white no-underline text-xl hover:text-grey-light"
-					href="#"
+					to="/about/"
 				>
 					about
-				</a>
+				</Link>
 			</div>
 		</nav>
 	</div>
