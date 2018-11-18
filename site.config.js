@@ -6,7 +6,6 @@ module.exports = {
 	siteUrl: 'https://topicfly.io', // Domain of your website without pathPrefix.
 	siteDescription: 'Topicfly', // Website description used for RSS feeds/meta description tag.
 	siteRss: '/rss.xml', // Path to the RSS file.
-	googleAnalyticsID: 'UA-122843286-1', // GA tracking ID.
 	dateFromFormat: 'YYYY-MM-DD', // Date format used in the frontmatter.
 	authors: [
 		{
