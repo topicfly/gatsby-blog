@@ -5,7 +5,7 @@ import PostCard from '../components/PostCard'
 import '../index.tailwind.css'
 
 const Layout = ({ children }) => (
-	<div className="container lg:w-3/5 flex items-center mx-auto px-3 lg:px-12 mt-12">{children}</div>
+	<div className="container lg:w-3/5 flex flex-col items-center mx-auto px-3 lg:px-12 mt-12">{children}</div>
 )
 
 export default ({ data }) => {
@@ -34,7 +34,7 @@ export const pageQuery = graphql`
 						title
 						author
 						date(formatString: "YYYY-MM-DD")
-						urlSlug
+						path
 					}
 				}
 			}

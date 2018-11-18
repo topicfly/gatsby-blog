@@ -3,4 +3,10 @@
 
 ## Running in development
 
-`gatsby develop`
+* `yarn install`
+* `yarn develop`
+
+## Deployment
+
+* `yarn install`
+* `yarn build`

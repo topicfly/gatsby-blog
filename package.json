@@ -9,8 +9,6 @@
 		"serve": "gatsby serve"
 	},
 	"dependencies": {
-		"emotion": "9.2.12",
-		"emotion-server": "9.2.12",
 		"gatsby": "^2.0.33",
 		"gatsby-image": "2.0.20",
 		"gatsby-plugin-catch-links": "2.0.8",
@@ -28,13 +26,14 @@
 		"gatsby-remark-autolink-headers": "2.0.11",
 		"gatsby-remark-copy-linked-files": "2.0.6",
 		"gatsby-remark-images": "2.0.6",
+		"gatsby-remark-prismjs": "3.0.3",
 		"gatsby-remark-responsive-iframe": "2.0.6",
 		"gatsby-source-filesystem": "2.0.8",
 		"gatsby-transformer-remark": "2.1.12",
 		"gatsby-transformer-sharp": "2.1.8",
+		"prismjs": "1.15.0",
 		"react": "^16.5.1",
 		"react-dom": "^16.5.1",
-		"react-emotion": "9.2.12",
 		"react-helmet": "5.2.0",
 		"tailwindcss": "0.7.2"
 	},

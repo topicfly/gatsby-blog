@@ -2,8 +2,9 @@
 title: Classify MNIST handwritten digits with Keras
 date: 2018-07-24
 author: Isaac Zepeda
+author_twitter: el_keogh
 author_id: izepeda
-urlSlug: /classify-mnist-digits-keras
+path: /classify-mnist-digits-keras
 tags:
     - machine-learning
     - deep-learning
