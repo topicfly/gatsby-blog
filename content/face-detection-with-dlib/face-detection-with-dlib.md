@@ -60,7 +60,7 @@ We need to code the following steps:
 5. Iterate over the found faces and draw a rectangle in the original image.
 6. Show image with detected faces
 
-```python facedetection.py
+```python
 # 1. Import libraries
 import argparse
 import dlib

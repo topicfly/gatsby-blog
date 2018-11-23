@@ -21,4 +21,5 @@ module.exports = {
 	],
 	whitelist: [ `` ], // adjust for each project
 	whitelistPatterns: [ /body/, /headroom/, /ReactModal/, /ril/ ], // adjust for each project
+	whitelistPatternsChildren: [ /pre/, /code/, /gatsby-highlight/, /token/ ],
 }

@@ -7,22 +7,6 @@ module.exports = {
 	siteDescription: 'Topicfly', // Website description used for RSS feeds/meta description tag.
 	siteRss: '/rss.xml', // Path to the RSS file.
 	dateFromFormat: 'YYYY-MM-DD', // Date format used in the frontmatter.
-	authors: [
-		{
-			id: 'izepeda',
-			name: 'Isaac Zepeda',
-			twitter: 'el_keogh',
-		},
-		{
-			id: 'hyeomans',
-			name: 'Hector Yeomans',
-			twitter: 'h_yeomans',
-		},
-		{
-			id: 'aharita',
-			name: 'Alfonso Harita',
-		},
-	],
 	copyright: 'Copyright © 2018.', // Copyright string for the footer of the website and RSS feed.
 	themeColor: '#c62828', // Used for setting manifest and progress theme colors.
 	backgroundColor: '#e0e0e0', // Used for setting manifest background color.

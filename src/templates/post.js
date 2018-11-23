@@ -3,7 +3,6 @@ import { Link, graphql } from 'gatsby'
 import NavBar from '../components/navbar'
 import '../index.tailwind.css'
 import './post.css'
-import 'prismjs/themes/prism-okaidia.css'
 
 import Helmet from 'react-helmet'
 
